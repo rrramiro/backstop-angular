@@ -1,0 +1,13 @@
+logs/*
+!.gitkeep
+node_modules/
+bower_components/
+tmp
+local.log
+.DS_Store
+.idea
+/target
+npm-debug.log
+/backstop_data/bitmaps_reference
+/backstop_data/bitmaps_test
+/backstop_data/html_report

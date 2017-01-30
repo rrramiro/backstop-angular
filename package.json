@@ -1,0 +1,19 @@
+{
+  "name": "my-angular-project",
+  "private": true,
+  "version": "0.0.1",
+  "description": "My Angular Project",
+  "license": "MIT",
+  "devDependencies": {
+    "backstopjs": "2.3.7",
+    "http-server": "^0.9.0",
+    "gulp": "3.9.1",
+    "casperjs": "1.1.3",
+    "slimerjs": "0.10.2"
+  },
+  "scripts": {
+    "start": "http-server -a localhost -p 8000 -c-1 ./",
+    "reference": "backstop reference",
+    "test-visual": "backstop test"
+  }
+}
