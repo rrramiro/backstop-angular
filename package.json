@@ -6,11 +6,15 @@
   "license": "MIT",
   "devDependencies": {
     "http-server": "^0.9.0",
+    "jasmine": "~2.5.2",
     "webdrivercss": "1.1.10",
     "webdriverio": "~2.4.5"
   },
   "scripts": {
+    "prestart": "npm install",
     "start": "http-server -a localhost -p 8000 -c-1 ./",
+    "pretest": "npm install",
+    "test": "jasmine",
     "testvisual": "node webdrivercss.browserstack.js"
   }
 }

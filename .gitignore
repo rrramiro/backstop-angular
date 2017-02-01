@@ -12,3 +12,4 @@ npm-debug.log
 /backstop_data/bitmaps_test
 /backstop_data/html_report
 *.exe
+visual/failed/*.png
